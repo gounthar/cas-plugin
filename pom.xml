@@ -28,7 +28,7 @@ THE SOFTWARE.
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
-		<version>4.12</version>
+		<version>4.51</version>
 		<relativePath />
 	</parent>
 
@@ -89,8 +89,7 @@ THE SOFTWARE.
 		<revision>1.6.4</revision>
 		<changelist>-SNAPSHOT</changelist>
 		<gitHubRepo>jenkinsci/cas-plugin</gitHubRepo>
-		<java.level>8</java.level>
-		<jenkins.version>2.266</jenkins.version>
+		<jenkins.version>2.346.3</jenkins.version>
 		<cas-client.version>3.6.1</cas-client.version>
 		<bouncycastle-api.version>2.18</bouncycastle-api.version>
 		<jaxb.version>2.3.6-1</jaxb.version>
@@ -100,8 +99,8 @@ THE SOFTWARE.
 		<dependencies>
 			<dependency>
 				<groupId>io.jenkins.tools.bom</groupId>
-				<artifactId>bom-2.263.x</artifactId>
-				<version>18</version>
+				<artifactId>bom-weekly</artifactId>
+				<version>2612.v3d6a_2128c0ef</version>
 				<scope>import</scope>
 				<type>pom</type>
 			</dependency>
